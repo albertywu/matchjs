@@ -20,6 +20,9 @@ match(expr)
   .case(p2, f2)
   .case(p3, f3)
   .default(f4)
+  
+// pi is a predicate that takes expr as input and returns a boolean
+// fi is an arbitrary function that gets invoked if pi yields true
 ```
 
 ---
