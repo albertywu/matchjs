@@ -43,7 +43,7 @@ const boundedValue = match(x)
 
 #### typescript enhancements:
 - type system should enforce that at least one `case` statement is specified
-- something should enforce that the entire domain of possible `expr` is covered by predicates, and require that `default` is specified if not. This is to prevent bugs where an expression value might have no match.
+- something should enforce that the entire domain of possible `expr` is covered by predicates, and require that `default` is specified if not. This is to prevent bugs where an expression value might have no matching case.
 - type script should infer the expression type (in the example above, should infer that `boundedValue` is type `number`
 ---
 
