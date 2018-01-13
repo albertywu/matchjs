@@ -5,11 +5,11 @@ A functional replacement for ES6 switch, without the bad parts
 ---
 
 #### problems with [ES6 switch statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
-- it not an expression, and cannot be assigned to a variable
+- is not an expression, and cannot be assigned to a variable
 - as a consequence, the semantics encourage side effects
 - case fall-through is error-prone
-- does not require all possible states to be handled (what if user forgets a default case?)
-- case statements conditions lack flexibility of a function predicate (does a strict equality comparison literals)
+- does not require that case statements cover the entire domain of possible expression values (leaky)
+- case statements conditions lack flexibility of a function predicate (does a strict equality comparison with literals)
 
 ---
 
