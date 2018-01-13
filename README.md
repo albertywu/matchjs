@@ -23,6 +23,8 @@ match(expr)
   
 // pi is a predicate that takes expr as input and returns a boolean
 // fi is an arbitrary function that gets invoked if pi yields true
+// if a predicate pi returns true, the entire expression terminates with the result of fi()
+// if no predicates return true, the entire expression terminates with the function provided to default
 ```
 
 ---
